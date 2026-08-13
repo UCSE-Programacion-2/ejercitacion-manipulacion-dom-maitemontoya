@@ -8,10 +8,10 @@ const logo = document.getElementById('logo');
 logo.setAttribute('src', 'https://www.youtube.com/img/desktop/yt_1200.png');
 
 //3- Quitarle al titulo la clase que le está dando un formato feo
-const titulo = document.getElementById('titulo');
-
+const titulo = document.querySelector('.titulo-feo');
 titulo.classList.remove('titulo-feo');
 
 //4- Chequear si el link a youtube posee o no el atributo href
-
+const linkYoutube = document.getElementById('link_youtube');
+console.log(linkYoutube.hasAttribute('href'));
 //5- Obtener el href del link a wikipedia y mostrarlo por consola
